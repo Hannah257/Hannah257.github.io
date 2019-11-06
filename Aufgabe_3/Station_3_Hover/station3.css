@@ -1,0 +1,64 @@
+body {
+    background-image: url(bg.png);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    position: absolute;
+    top: 370px;
+    left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.stern1 {
+    position: absolute;
+    left: 450px;
+    top: 230px;
+}
+
+.stern1:hover {
+    background-image: url(stern_hover.png);
+}
+
+
+.stern2 {
+    position: absolute;
+    right: 560px;
+    top: 210px;
+
+}
+
+.stern2:hover {
+    background-image: url(stern_hover.png);
+}
+
+.stern3 {
+    position: absolute;
+    right: 450px;
+    bottom: 220px;
+
+}
+
+.stern3:hover {
+    background-image: url(stern_hover.png);
+}

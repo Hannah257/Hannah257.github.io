@@ -1,0 +1,83 @@
+body {
+    background-image: url(bg.png);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.busch {
+    position: absolute ;
+    left: 305px ;
+    bottom: 450px;
+}
+
+.pinguin {
+    position: absolute;
+    right: 350px;
+    top: 400px;
+}
+
+h1 {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+p1 {
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    bottom: 300px;
+    left: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+p2 {
+    position: absolute;
+    left: 540px;
+    bottom: 260px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: olive;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkslategrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

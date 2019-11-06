@@ -1,0 +1,30 @@
+body {
+    background-image: url(bg.png);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banderole {
+    position: absolute;
+    right: 400px;
+    bottom: 190px;
+    z-index: 3;
+}
+
+iframe {
+    position: absolute;
+    left: 405px;
+    top: 210px;
+}
+
+
+
+
