@@ -7,8 +7,8 @@ body {
 
 p {
     position: absolute;
-    left: 410px;
-    top: 350px;
+    left: 35px;
+    top: 130px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
@@ -23,33 +23,31 @@ p {
 
 .busch {
     position: absolute;
-    left: 320px;
-    bottom: 480px;
-    z-index: 3;
-
+    top: -70px;
+    left: -70px;
 }
 
 .geschenke {
     position: absolute;
-    right: 350px;
-    bottom: 150px;
+    top: 290px;
+    left: 380px;
     z-index: 3;
 }
 
 .stern1 {
     position: absolute;
-    left: 480px;
-    bottom: 300px;
+    top: 90px;
+    left: 170px;
 }
 
 .stern2 {
     position: absolute;
-    left: 550px;
+    left: 280px;
     top: 300px;
 }
 
 .feuer {
     position: absolute;
-    right: 410px;
-    bottom: 230px;
+    top: 25px;
+    left: 325px;
 }
