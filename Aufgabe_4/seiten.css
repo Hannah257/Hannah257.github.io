@@ -1,0 +1,50 @@
+body {
+    background-color: blue;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.hintergrund {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fragefeld {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+}
+
+.antwortfeld {
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+
+.antwortfeld:hover {
+    background-image: url(answer_over.png);
+}
+
+.frageStart {
+    position: absolute;
+    left: 120px;
+    top: 110px;
+    font-size: 20px;
+}
+
+.antwortStart {
+    position: absolute;
+    left: 270px;
+    top: 285px;
+    font-size: 25px;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
