@@ -24,4 +24,3 @@ Mit Paper und Strift, dann digitalieren und die Sitemap zu Ihrem Repository lege
 Bearbeitung wie gehabt: als Unterordner in Ihrem Git Repository (/Aufgabe_4); das fertige Arbeitspaket wieder auf Github pushen und auf Ihrem Kursseiten-Steckbrief verlinken.
 
 ## Abgabe 4 bis Mittwoch, 13.11.2019 18:00 Uhr
-
