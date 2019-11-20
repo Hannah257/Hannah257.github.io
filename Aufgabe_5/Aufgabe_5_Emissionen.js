@@ -72,4 +72,3 @@ console.log(DieEmissionvon + Asia + beträgt + emissionAsia2018 + kgCO2 + Relati
 console.log(DieEmissionvon + SouthAmerica + beträgt + emissionSouthAmerica2018 + kgCO2 + RelativzurGesamtemission + SouthAmerica + damit + percentSouthAmerica1 + Prozentzeichen1 + Für + SouthAmerica + Vergleichzu2008 + percentSouthAmerica3 + Prozentzeichen2 + verändert + Vergleich2008 + endSouthAmerica + kgCO2);
 console.log(DieEmissionvon + NorthAmerica + beträgt + emissionNorthAmerica2018 + kgCO2 + RelativzurGesamtemission + NorthAmerica + damit + percentNorthAmerica1 + Prozentzeichen1 + Für + NorthAmerica + Vergleichzu2008 + percentNorthAmerica3 + Prozentzeichen2 + verändert + Vergleich2008 + endNorthAmerica + kgCO2);
 //# sourceMappingURL=Aufgabe_5_Emissionen.js.map
-//# sourceMappingURL=Aufgabe_5_Emissionen.js.map
