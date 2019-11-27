@@ -13,7 +13,7 @@ var emissionSouthAmerica2018 = 1261.5;
 var emissionNorthAmerica2018 = 6035.6;
 var emissionTotal2018 = emissionEurope2018 + emissionAfrica2018 + emissionAustralia2018 + emissionAsia2018 + emissionSouthAmerica2018 + emissionNorthAmerica2018;
 
-ar relativeEurope = (emissionEurope2018 / emissionTotal2018) * 100;
+var relativeEurope = (emissionEurope2018 / emissionTotal2018) * 100;
 var relativeAfrica = (emissionAfrica2018 / emissionTotal2018) * 100;
 var relativeAustralia = (emissionAustralia2018 / emissionTotal2018) * 100;
 var relativeAsia = (emissionAsia2018 / emissionTotal2018) * 100;
