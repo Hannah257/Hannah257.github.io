@@ -38,7 +38,9 @@ function EuropeFunction() {
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceEurope.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:13.5%");
 }
-document.querySelector(".Europe").addEventListener("click", EuropeFunction);
+window.addEventListener('load', function () {
+    document.querySelector(".Europe").addEventListener("click", EuropeFunction);
+});
 function AfricaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Africa";
     document.querySelector(".continent").innerHTML = "Africa";
@@ -48,7 +50,9 @@ function AfricaFunction() {
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceAfrica.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:4%");
 }
-document.querySelector(".africa").addEventListener("click", AfricaFunction);
+window.addEventListener('load', function () {
+    document.querySelector(".Africa").addEventListener("click", AfricaFunction);
+});
 function AustraliaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Australia";
     document.querySelector(".Continent").innerHTML = "Australia";
@@ -59,7 +63,9 @@ function AustraliaFunction() {
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceAustralia.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:4.1%");
 }
-document.querySelector(".australia").addEventListener("click", AustraliaFunction);
+window.addEventListener('load', function () {
+    document.querySelector(".Australia").addEventListener("click", AustraliaFunction);
+});
 function AsiaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Asia";
     document.querySelector(".continent").innerHTML = "Asia";
@@ -69,7 +75,9 @@ function AsiaFunction() {
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceAsia.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:52.3%");
 }
-document.querySelector(".asia").addEventListener("click", AsiaFunction);
+window.addEventListener('load', function () {
+    document.querySelector(".Asia").addEventListener("click", AsiaFunction);
+});
 function SouthAmericaFunction() {
     document.querySelector(".MainTitle").innerHTML = "South America";
     document.querySelector(".continent").innerHTML = "South America";
@@ -79,7 +87,9 @@ function SouthAmericaFunction() {
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceSouthAmerica.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:4.1%");
 }
-document.querySelector(".SouthAmerica").addEventListener("click", SouthAmericaFunction);
+window.addEventListener('load', function () {
+    document.querySelector(".SouthAmerica").addEventListener("click", SouthAmericaFunction);
+});
 function NorthAmericaFunction() {
     document.querySelector(".MainTitle").innerHTML = "North America";
     document.querySelector(".continent").innerHTML = "North America";
@@ -89,5 +99,7 @@ function NorthAmericaFunction() {
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceNorthAmerica.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:19.4%");
 }
-document.querySelector(".NorthAmerica").addEventListener("click", NorthAmericaFunction);
+window.addEventListener('load', function () {
+    document.querySelector(".NorthAmerica").addEventListener("click", NorthAmericaFunction);
+});
 //# sourceMappingURL=aufgabe_6.js.map
