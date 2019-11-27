@@ -4,6 +4,7 @@ var emissionAustralia2008 = 1993;
 var emissionAsia2008 = 12954.7;
 var emissionSouthAmerica2008 = 1132.6;
 var emissionNorthAmerica2008 = 6600.4;
+
 var emissionEurope2018 = 4209.3;
 var emissionAfrica2018 = 1235.5;
 var emissionAustralia2018 = 2100.5;
@@ -11,24 +12,28 @@ var emissionAsia2018 = 16274.1;
 var emissionSouthAmerica2018 = 1261.5;
 var emissionNorthAmerica2018 = 6035.6;
 var emissionTotal2018 = emissionEurope2018 + emissionAfrica2018 + emissionAustralia2018 + emissionAsia2018 + emissionSouthAmerica2018 + emissionNorthAmerica2018;
-var relativeEurope = (emissionEurope2018 / emissionTotal2018) * 100;
+
+ar relativeEurope = (emissionEurope2018 / emissionTotal2018) * 100;
 var relativeAfrica = (emissionAfrica2018 / emissionTotal2018) * 100;
 var relativeAustralia = (emissionAustralia2018 / emissionTotal2018) * 100;
 var relativeAsia = (emissionAsia2018 / emissionTotal2018) * 100;
 var relativeSouthAmerica = (emissionSouthAmerica2018 / emissionTotal2018) * 100;
 var relativeNorthAmerica = (emissionNorthAmerica2018 / emissionTotal2018) * 100;
+
 var growthrateEurope = ((emissionEurope2018 / emissionEurope2008) - 1) * 100;
 var growthrateAfrica = ((emissionAfrica2018 / emissionAfrica2008) - 1) * 100;
 var growthrateAustralia = ((emissionAustralia2018 / emissionAustralia2008) - 1) * 100;
 var growthrateAsia = ((emissionAsia2018 / emissionAsia2008) - 1) * 100;
 var growthrateSouthAmerica = ((emissionSouthAmerica2018 / emissionSouthAmerica2008) - 1) * 100;
 var growthrateNorthAmerica = ((emissionNorthAmerica2018 / emissionNorthAmerica2008) - 1) * 100;
+
 var growthdifferenceEurope = emissionEurope2018 - emissionEurope2008;
 var growthdifferenceAfrica = emissionAfrica2018 - emissionAfrica2008;
 var growthdifferenceAustralia = emissionAustralia2018 - emissionAustralia2008;
 var growthdifferenceAsia = emissionAsia2018 - emissionAsia2008;
 var growthdifferenceSouthAmerica = emissionSouthAmerica2018 - emissionSouthAmerica2008;
 var growthdifferenceNorthAmerica = emissionNorthAmerica2018 - emissionNorthAmerica2008;
+
 function EuropeFunction() {
     document.querySelector(".MainTitle").innerHTML = "Europe";
     document.querySelector(".continent").innerHTML = "Europe";
@@ -39,6 +44,7 @@ function EuropeFunction() {
     document.querySelector(".chart").setAttribute("style", "height:13.5%");
 }
 document.querySelector(".Europe").addEventListener("click", EuropeFunction);
+
 function AfricaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Africa";
     document.querySelector(".continent").innerHTML = "Africa";
@@ -49,6 +55,7 @@ function AfricaFunction() {
     document.querySelector(".chart").setAttribute("style", "height:4%");
 }
 document.querySelector(".africa").addEventListener("click", AfricaFunction);
+
 function AustraliaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Australia";
     document.querySelector(".Continent").innerHTML = "Australia";
@@ -60,6 +67,7 @@ function AustraliaFunction() {
     document.querySelector(".chart").setAttribute("style", "height:4.1%");
 }
 document.querySelector(".australia").addEventListener("click", AustraliaFunction);
+
 function AsiaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Asia";
     document.querySelector(".continent").innerHTML = "Asia";
@@ -70,6 +78,7 @@ function AsiaFunction() {
     document.querySelector(".chart").setAttribute("style", "height:52.3%");
 }
 document.querySelector(".asia").addEventListener("click", AsiaFunction);
+
 function SouthAmericaFunction() {
     document.querySelector(".MainTitle").innerHTML = "South America";
     document.querySelector(".continent").innerHTML = "South America";
@@ -80,6 +89,7 @@ function SouthAmericaFunction() {
     document.querySelector(".chart").setAttribute("style", "height:4.1%");
 }
 document.querySelector(".SouthAmerica").addEventListener("click", SouthAmericaFunction);
+
 function NorthAmericaFunction() {
     document.querySelector(".MainTitle").innerHTML = "North America";
     document.querySelector(".continent").innerHTML = "North America";
