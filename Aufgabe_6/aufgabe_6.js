@@ -102,4 +102,6 @@ function NorthAmericaFunction() {
 window.addEventListener('load', function () {
     document.querySelector(".NorthAmerica").addEventListener("click", NorthAmericaFunction);
 });
+var number = 13;
+console.log(number);
 //# sourceMappingURL=aufgabe_6.js.map
