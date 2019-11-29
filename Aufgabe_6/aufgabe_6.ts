@@ -116,8 +116,4 @@ document.querySelector(".NorthAmerica").addEventListener("click", NorthAmericaFu
 
 
 
-var number = 13
-console.log(number);
-
-
 
