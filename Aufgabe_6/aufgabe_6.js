@@ -55,7 +55,7 @@ window.addEventListener('load', function () {
 });
 function AustraliaFunction() {
     document.querySelector(".MainTitle").innerHTML = "Australia";
-    document.querySelector(".Continent").innerHTML = "Australia";
+    document.querySelector(".continent").innerHTML = "Australia";
     document.querySelector(".EmissionAbsolute").innerHTML = "" + emissionAustralia2018;
     document.querySelector(".EmissionAbsolute").innerHTML = "" + emissionAustralia2018;
     document.querySelector(".EmissionRelative").innerHTML = "" + relativeAustralia.toFixed(2) + " %";
@@ -71,7 +71,7 @@ function AsiaFunction() {
     document.querySelector(".continent").innerHTML = "Asia";
     document.querySelector(".EmissionAbsolute").innerHTML = "" + emissionAsia2018;
     document.querySelector(".EmissionRelative").innerHTML = "" + relativeAsia.toFixed(2) + " %";
-    document.querySelector(".EmissonGrowth").innerHTML = "" + growthrateAsia.toFixed(2) + " %";
+    document.querySelector(".EmissionGrowth").innerHTML = "" + growthrateAsia.toFixed(2) + " %";
     document.querySelector(".EmissionDifference").innerHTML = "" + growthdifferenceAsia.toFixed(2);
     document.querySelector(".chart").setAttribute("style", "height:52.3%");
 }
@@ -102,6 +102,4 @@ function NorthAmericaFunction() {
 window.addEventListener('load', function () {
     document.querySelector(".NorthAmerica").addEventListener("click", NorthAmericaFunction);
 });
-var number = 13;
-console.log(number);
 //# sourceMappingURL=aufgabe_6.js.map

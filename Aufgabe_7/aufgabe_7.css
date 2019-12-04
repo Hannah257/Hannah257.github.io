@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+}
+
+#center {
+    width: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+}
+
+#button1 {
+    position: absolute;
+    left: 10px;
+    top: 155px;
+    background-color: #0000FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button2 {
+    position: absolute;
+    left: 165px;
+    top: 155px;
+    background-color: #0000FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button3 {
+    position: absolute;
+    left: 320px;
+    top: 155px;
+    background-color: #0000FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button4 {
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button5 {
+    position: absolute;
+    left: 165px;
+    top: 310px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button6 {
+    position: absolute;
+    left: 320px;
+    top: 310px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button7 {
+    position: absolute;
+    left: 10px;
+    top: 465px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button8 {
+    position: absolute;
+    left: 165px;
+    top: 465px;
+    background-color: #FE9A2E;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#button9 {
+    position: absolute;
+    left: 320px;
+    top: 465px;
+    background-color: #FE9A2E;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#PlayButton {
+    position: absolute;
+    left: 120px;
+    top: 620px;
+}
+
+#StoppButton {
+    position: absolute;
+    left: 270px;
+    top: 650px;
+    background-color: #ffffff;
+    width: 90px;
+    height: 90px;
+    border-radius: 0px;
+}
