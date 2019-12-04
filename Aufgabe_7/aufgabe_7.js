@@ -1,4 +1,3 @@
-//Sounds Drumpad
 window.addEventListener("load", function () {
     document.querySelector("#button1").addEventListener("mousedown", function () {
         playSample("kick.mp3");

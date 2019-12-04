@@ -43,7 +43,3 @@ function stopBeat() {
     clearInterval(Kick);
 }
 };};
-        
-        
-    
-    
