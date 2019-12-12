@@ -1,0 +1,23 @@
+#RecordBeat {
+    position: relative;
+    top: -1000px; 
+    right: -400px;
+    height: 50px;
+    width:50px;
+}   
+
+#PlayBeat {
+    position: relative;
+    top: -905px;
+    right: -20px;
+    height: 50px;
+    width:50px;
+}
+
+#DeleteBeat {
+    position: relative;
+    top: -955px;
+    right: -100px;
+    height: 50px;
+    width:50px;
+}
