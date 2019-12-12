@@ -2,6 +2,7 @@
 var beat = ["assets/kick.mp3", "assets/snare.mp3", "assets/hihat.mp3", "assets/F.mp3", "assets/C.mp3", "assets/F.mp3", "assets/C.mp3", "assets/G.mp3", "assets/A.mp3", "assets/A.mp3", "assets/G.mp3", "assets/A.mp3", "assets/C.mp3", "assets/F.mp3", "assets/laugh-2.mp3"];
 var beatloop;
 var record = false;
+
 //Sounds Drumpad
 window.addEventListener("load", function () {
     document.querySelector("#button1").addEventListener("mousedown", function () {
@@ -35,6 +36,7 @@ window.addEventListener("load", function () {
     document.querySelector("#play").addEventListener("click", playMyBeat);
     document.querySelector("#delete").addEventListener("click", deleteMyBeat);
 });
+
 //Sound Function
 function playsample(mp3) {
     var sound = new Audio("assets/" + mp3);
@@ -64,12 +66,13 @@ function playMyBeat() {
         }
     }
 }
+
 //Delete My Beat
 function deleteMyBeat() {
     beat = [];
 }
+
 //Record New Beat
 function recordNewBeat() {
     record = true;
 }
-//# sourceMappingURL=aufgabe_8.js.map
