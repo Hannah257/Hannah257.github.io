@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+}
+
+#drumpad {
+    width: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+}
+
+#button1 {
+    position: absolute;
+    left: 10px;
+    top: 155px;
+    background-color: #0000FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button1:hover {
+    background-image: linear-gradient(#0000FF, #1E90FF);
+}
+
+#button2 {
+    position: absolute;
+    left: 165px;
+    top: 155px;
+    background-color: #0000FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button2:hover {
+    background-image: linear-gradient(#0000FF, #1E90FF);
+}
+
+#button3 {
+    position: absolute;
+    left: 320px;
+    top: 155px;
+    background-color: #0000FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button3:hover {
+    background-image: linear-gradient(#0000FF, #1E90FF);
+}
+
+#button4 {
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button4:hover {
+    background-image: linear-gradient(#FF00FF, #FFB6C1);
+}
+
+#button5 {
+    position: absolute;
+    left: 165px;
+    top: 310px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button5:hover {
+    background-image: linear-gradient(#FF00FF, #FFB6C1);
+}
+
+#button6 {
+    position: absolute;
+    left: 320px;
+    top: 310px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button6:hover {
+    background-image: linear-gradient(#FF00FF, #FFB6C1);
+}
+
+#button7 {
+    position: absolute;
+    left: 10px;
+    top: 465px;
+    background-color:#FE2E9A;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button7:hover {
+    background-image: linear-gradient(#FF00FF, #FFB6C1);
+}
+
+#button8 {
+    position: absolute;
+    left: 165px;
+    top: 465px;
+    background-color: #FE9A2E;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button8:hover {
+    background-image: linear-gradient(#FF8C00, #FFD700);
+}
+
+#button9 {
+    position: absolute;
+    left: 320px;
+    top: 465px;
+    background-color: #FE9A2E;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+#button9:hover {
+    background-image: linear-gradient(#FF8C00, #FFD700);
+}
+
+#RecordBeat {
+    position: relative;
+    top: -1000px; 
+    right: -400px;
+    height: 50px;
+    width:50px;
+}   
+
+#PlayBeat {
+    position: relative;
+    top: -905px;
+    right: -20px;
+    height: 50px;
+    width:50px;
+}
+
+#DeleteBeat {
+    position: relative;
+    top: -955px;
+    right: -100px;
+    height: 50px;
+    width:50px;
+}
+
+#Pause {
+    position: relative;
+    height: 50px;
+    width:50px;
+    top: -970px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+    
