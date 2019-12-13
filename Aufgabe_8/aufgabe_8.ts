@@ -1,7 +1,8 @@
 //Globale Variablen
-var beat: string[] = ["assets/kick.mp3", "assets/snare.mp3", "assets/hihat.mp3", "assets/F.mp3", "assets/C.mp3", "assets/F.mp3", "assets/C.mp3", "assets/G.mp3", "assets/A.mp3", "assets/A.mp3", "assets/G.mp3", "assets/A.mp3", "assets/C.mp3", "assets/F.mp3", "assets/laugh-2.mp3"];
+var beat: string [] = ["assets/kick.mp3", "assets/snare.mp3", "assets/hihat.mp3", "assets/F.mp3", "assets/C.mp3", "assets/F.mp3", "assets/C.mp3", "assets/G.mp3", "assets/A.mp3", "assets/A.mp3", "assets/G.mp3", "assets/A.mp3", "assets/C.mp3", "assets/F.mp3", "assets/laugh-2.mp3"];
 var beatloop: number;
 var record: boolean = false;
+var index: number = 0;
 
 //Sounds Drumpad
 window.addEventListener("load", function (): void {
@@ -47,27 +48,25 @@ function playsample(mp3: string): void {
     }
 }
 
+function myBeat(): void {
+    playsample(beat[index]);
+    index += 1;
+    if (index > (beat.length - 1))
+    index = 0;    
+}
+
 //Play and Stop My Beat
 function playMyBeat(): void {
-    var index: number = 0;
-    var playButton: HTMLElement = document.getElementById("playBeat");
 
     if (document.getElementById("PlayBeat").classList.contains("fa-play")) {
         document.getElementById("PlayBeat").classList.remove("fa-play");
         document.getElementById("PlayBeat").classList.add("fa-stop");
-        beatloop = setInterval(beat, 400);
+        beatloop = setInterval(myBeat, 500);
 
     } else {
         (document.getElementById("PlayBeat").classList.remove("fa-stop"));
         document.getElementById("PlayBeat").classList.add("fa-play");
         clearInterval(beatloop);
-    }
-
-
-    function playMyBeat(): void {
-        playsample(beat [index]);
-        index += 1;
-        if (index > beat.length) { index = 0; }
     }
 }
 
