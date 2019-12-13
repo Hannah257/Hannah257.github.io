@@ -52,14 +52,14 @@ function playMyBeat(): void {
     var index: number = 0;
     var playButton: HTMLElement = document.getElementById("playBeat");
 
-    if (playButton.classList.contains("fa-play")) {
-        playButton.classList.remove("fa-play");
-        playButton.classList.add("fa-stop");
+    if (document.getElementById("PlayBeat").classList.contains("fa-play")) {
+        document.getElementById("PlayBeat").classList.remove("fa-play");
+        document.getElementById("PlayBeat").classList.add("fa-stop");
         beatloop = setInterval(beat, 400);
 
     } else {
-        playButton.classList.remove("fa-stop");
-        playButton.classList.add("fa-play");
+        (document.getElementById("PlayBeat").classList.remove("fa-stop"));
+        document.getElementById("PlayBeat").classList.add("fa-play");
         clearInterval(beatloop);
     }
 

@@ -128,8 +128,8 @@ body {
 
 #RecordBeat {
     position: relative;
-    top: 0px; 
-    right: -400px;
+    top: 650px; 
+    right: -50px;
     height: 50px;
     width:50px;
     color: white;
@@ -137,8 +137,8 @@ body {
 
 #PlayBeat {
     position: relative;
-    top: 0px;
-    right: -20px;
+    top: 600px;
+    right: -210px;
     height: 50px;
     width:50px;
     color: white;
@@ -146,17 +146,9 @@ body {
 
 #DeleteBeat {
     position: relative;
-    top: 0px;
-    right: -100px;
+    top: 527px;
+    right: -370px;
     height: 50px;
     width:50px;
     color: white;
-}
-
-#Pause {
-    position: relative;
-    height: 50px;
-    width:50px;
-    top: -970px;
-    right: 20px;
 }
