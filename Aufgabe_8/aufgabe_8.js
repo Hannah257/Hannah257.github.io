@@ -1,5 +1,5 @@
 //Globale Variablen
-var beat = ["assets/kick.mp3", "assets/snare.mp3", "assets/hihat.mp3", "assets/F.mp3", "assets/C.mp3", "assets/F.mp3", "assets/C.mp3", "assets/G.mp3", "assets/A.mp3", "assets/A.mp3", "assets/G.mp3", "assets/A.mp3", "assets/C.mp3", "assets/F.mp3", "assets/laugh-2.mp3"];
+var beat = ["kick.mp3", "snare.mp3", "hihat.mp3", "F.mp3", "C.mp3", "F.mp3", "C.mp3", "G.mp3", "A.mp3", "A.mp3", "G.mp3", "A.mp3", "C.mp3", "F.mp3", "laugh-2.mp3"];
 var beatloop;
 var record = false;
 var index = 0;
@@ -56,11 +56,14 @@ function playMyBeat() {
         document.getElementById("PlayBeat").classList.remove("fa-play");
         document.getElementById("PlayBeat").classList.add("fa-stop");
         beatloop = setInterval(myBeat, 500);
+        record = false;
+        console.log("Klappt?");
     }
     else {
-        (document.getElementById("PlayBeat").classList.remove("fa-stop"));
+        document.getElementById("PlayBeat").classList.remove("fa-stop");
         document.getElementById("PlayBeat").classList.add("fa-play");
         clearInterval(beatloop);
+        console.log("Jap klappt!");
     }
 }
 //Delete My Beat
