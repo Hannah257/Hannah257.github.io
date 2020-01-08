@@ -51,4 +51,3 @@ function deleteTasks() {
     var countTasks = "" + array.length + " insgesamt";
     document.querySelector("#countTasks").innerHTML = "" + countTasks;
 }
-//# sourceMappingURL=aufgabe_9.js.map

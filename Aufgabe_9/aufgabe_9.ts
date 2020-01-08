@@ -67,5 +67,3 @@ function deleteTasks(): void {
     document.querySelector("#countTasks").innerHTML = "" + countTasks;
 }
 
-
-
