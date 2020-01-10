@@ -131,12 +131,12 @@ ul.ToDo li:last-of-type {
     margin: 0;
 }
 
-.complete {
+.done {
     width: 50px;
-    height: 100px;
+    height: 50px;
     position: absolute;
     top: 25px;
-    right: 50%;
+    right: 20px;
     margin: -11px 0 0 -11px;
 }
 
