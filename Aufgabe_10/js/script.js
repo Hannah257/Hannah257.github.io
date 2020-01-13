@@ -217,4 +217,3 @@ window.addEventListener("load", function () {
     }
     startContinuousArtyom();
 });
-//# sourceMappingURL=script.js.map
