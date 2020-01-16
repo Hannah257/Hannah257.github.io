@@ -17,10 +17,20 @@ interface Hannahstodos {
     todosChecked: boolean[];
 }
 
-var abc: Hannahstodos = {
-    todosText:  ["Lorem" , "Ipsum" , "Dolor"],
-    todosChecked: [true    , false   , false]
-};
+var abc: Hannahstodos[] = [
+    {
+        todosText: "Lorem",
+        todosChecked: true
+    },
+    {
+        todosText: "Ipsum",
+        todosChecked: false
+    },
+    {
+        todosText: "Dolor",
+        todosChecked: false
+    }
+];
 
 /**
  * Die Anwendung wird immer wieder auf die selben
